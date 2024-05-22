@@ -1,0 +1,180 @@
+sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+sidebar .nav-link {
+  color: black;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  text-decoration: none;
+}
+sidebar .nav-link hr {
+  margin: 0;
+  border-top: 1px solid black;
+}
+sidebar .bottom-links {
+  margin-top: auto;
+}
+
+sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.nav-link {
+  color: black;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.nav-link hr {
+  margin: 0;
+  border-top: 1px solid black;
+}
+
+.bottom-links {
+  margin-top: auto;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo-container img {
+  height: 30px; /* Adjust as needed */
+  margin-right: 10px; /* Add space between logo and text */
+}
+
+.legal-solution {
+  font-weight: bold;
+  padding: 10px;
+}
+
+.sidebar {
+  box-shadow: 1px 2px 5px rgb(220, 216, 216);
+  height: 150%;
+}
+.sidebar .header {
+  box-shadow: 1px 2px 3px rgb(236, 234, 234);
+  width: 105%;
+}
+.sidebar .header p {
+  margin-left: 2.5rem;
+}
+.sidebar .first-part .side-icons,
+.sidebar .second-part .side-icons {
+  display: flex;
+}
+.sidebar .first-part .side-icons svg,
+.sidebar .second-part .side-icons svg {
+  margin-left: 2rem;
+}
+.sidebar .first-part .side-icons p,
+.sidebar .second-part .side-icons p {
+  margin-top: -5px;
+  margin-left: 3rem;
+}
+.sidebar .second-part {
+  margin-top: 140%;
+}
+
+.right-part .dropdown a {
+  background-color: white;
+  box-shadow: 1px 2px 3px rgb(235, 232, 232);
+}
+.right-part .alert-msg {
+  width: 90%;
+  margin-left: 2rem;
+}
+.right-part .firstp {
+  border-right: 5px solid;
+  border-radius: 1rem;
+  background-color: orange;
+}
+.right-part .card {
+  margin-top: 10px !important;
+  box-shadow: 1px 2px 4px rgb(229, 226, 226);
+  width: 90%;
+  border: none;
+  margin-left: 2rem;
+  border-left: 3px solid orange;
+}
+.right-part .player .pause svg {
+  margin-left: 90%;
+  margin-top: 1rem;
+}
+.right-part .player .from p,
+.right-part .player .from span {
+  margin-left: 2rem;
+}
+.right-part .status .part-a p {
+  font-weight: 500;
+  border-left: 3px solid aqua;
+  border-radius: 2px;
+}
+.right-part .status .part-a p,
+.right-part .status .part-a span {
+  margin-left: 2rem;
+}
+.right-part .status .part-b svg {
+  margin-left: 60%;
+}
+.right-part .status .part-b a {
+  margin-top: 2rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+.right-part .remaing-form {
+  margin-left: 2.5%;
+}
+.right-part .remaing-form label {
+  color: rgb(188, 185, 185);
+}
+.right-part .remaing-form input {
+  border: none;
+  box-shadow: 1px 2px 4px rgb(224, 216, 216);
+  width: 95%;
+  padding: 1rem;
+  color: black;
+  font-weight: 500;
+  margin-top: -1rem;
+}
+.right-part .remaing-form button {
+  border: none;
+  box-shadow: 1px 2px 4px rgb(224, 216, 216);
+  width: 98%;
+  display: flex;
+  justify-content: space-between;
+  color: rgb(188, 185, 185);
+  margin-left: -1rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+.right-part .remaing-form .description {
+  box-shadow: 1px 3px 4px rgb(201, 198, 198);
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 95%;
+  color: rgb(220, 210, 210);
+}
+.right-part .remaing-form .description .below-desc {
+  margin-left: 75%;
+}
+.right-part .remaing-form .butn {
+  background-color: rgb(5, 11, 42);
+  width: 95%;
+  margin-left: 1%;
+  color: white;
+}
+.right-part .remaing-form .butn span {
+  margin-right: 3px;
+}/*# sourceMappingURL=Tracktime.css.map */

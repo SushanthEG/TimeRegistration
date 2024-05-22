@@ -1,0 +1,67 @@
+// styles.scss
+
+sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+
+  .nav-link {
+    color: black;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    text-decoration: none;
+
+    hr {
+      margin: 0;
+      border-top: 1px solid black;
+    }
+  }
+
+  .bottom-links {
+    margin-top: auto;
+  }
+}
+sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.nav-link {
+  color: black;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.nav-link hr {
+  margin: 0;
+  border-top: 1px solid black;
+}
+
+.bottom-links {
+  margin-top: auto;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo-container img {
+  height: 30px; /* Adjust as needed */
+  margin-right: 10px; /* Add space between logo and text */
+}
+
+.legal-solution {
+  font-weight: bold;
+  padding: 10px;
+}
+table {
+  border: 0px solid white;
+}

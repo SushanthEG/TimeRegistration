@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Sidebar Example</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="AddTime.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-2 shadow-sm ">
+          <sidebar>
+            <div style="height: 30px;justify-content: center;text-align: center; margin-top: 20px;"
+              class="logo-contaihttps://www.msn.com/en-in/sports/cricket/ipl-2024-3-new-rules-for-playoff-matches/ar-BB1mLbVcner"
+            >
+              <img src="img/logo.png" alt="Logo" height="20px" />
+              <span>Legal Solution</span>
+            </div>
+            <div><hr /></div>
+
+            <a href="#" class="nav-link">
+              <i class="fas fa-home mr-2"></i> Home
+            </a>
+            <a href="#" class="nav-link">
+              <i class="far fa-clock mr-2"></i> Register Time
+            </a>
+            <a href="#" class="nav-link">
+              <i class="far fa-calendar-alt mr-2"></i> Calendar
+            </a>
+            <a href="#" class="nav-link">
+              <i class="far fa-chart-bar mr-2"></i>
+              <i class="fa-light fa-chart-simple mr-2"></i> Overview
+            </a>
+            <hr />
+            <div class="bottom-links">
+              <a href="#" class="nav-link">
+                <i class="far fa-bell mr-2"></i> Notification
+              </a>
+              <a href="#" class="nav-link">
+                <i class="far fa-user mr-2"></i> Username
+              </a>
+            </div>
+          </sidebar>
+        </div>
+        <div class="col-10">
+          <!-- First row -->
+          <div class="row">
+            <div class="col-11 text-center mt-3">
+              <span>Today</span>
+              <!-- Button trigger modal -->
+<span data-toggle="modal" data-target="#exampleModal">
+  <i class="fa-solid fa-caret-down"></i>
+</span>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">December 2023</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <!-- Table to display dates -->
+        <table class="table">
+          <thead>
+            <tr">
+              <th>Sun</th>
+              <th>Mon</th>
+              <th>Tue</th>
+              <th>Wed</th>
+              <th>Thu</th>
+              <th>Fri</th>
+              <th>Sat</th>
+            </tr>
+          </thead>
+          <tbody id="dateTableBody">
+            <tr>
+              <td></td> <!-- Placeholder for Sun -->
+              <td></td> <!-- Placeholder for Mon -->
+              <td></td> <!-- Placeholder for Tue -->
+              <td></td> <!-- Placeholder for Wed -->
+              <td></td> <!-- Placeholder for Thu -->
+              <td></td> <!-- Placeholder for Fri -->
+             <!-- Marked 27th date -->
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+              <td>4</td>
+              <td>5</td>
+              <td>6</td>
+              <td>7</td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td>9</td>
+              <td>10</td>
+              <td>11</td>
+              <td>12</td>
+              <td>13</td>
+              <td>14</td>
+            </tr>
+            <tr>
+              <td>15</td>
+              <td>16</td>
+              <td>17</td>
+              <td>18</td>
+              <td>19</td>
+              <td>20</td>
+              <td>21</td>
+            </tr>
+            <tr>
+              <td>22</td>
+              <td>23</td>
+              <td>24</td>
+              <td>25</td>
+              <td>26</td>
+              <td class="bg-primary text-white rounded-circle">27</td>
+              <td>28</td>
+           
+            </tr>
+            <tr>
+                 <td>29</td>
+              <td>30</td>
+              <td></td> <!-- Placeholder for Tue -->
+              <td></td> <!-- Placeholder for Wed -->
+              <td></td> <!-- Placeholder for Thu -->
+              <td></td> <!-- Placeholder for Fri -->
+              <td></td> <!-- Placeholder for Sat -->
+              <td></td> <!-- Placeholder for Sun -->
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!-- Remove modal footer -->
+    </div>
+  </div>
+</div>
+
+          </div>
+
+          <!-- Second row -->
+          <!-- First row -->
+          <div class="row container ">
+            <div class="ml-3 mt-3">
+              <h5>Status</h5>
+              <p class="col border-5 border-left border-primary">Billable</p>
+            </div>
+            <div class="col">
+              <i
+                class="far fa-calendar-plus mt-5"
+                style="margin-left: 700px"
+              ></i>
+              <span>Add to Registration</span>
+            </div>
+          </div>
+
+          <!-- Second row -->
+          <div class="row container mt-3">
+            <div class="col">
+              <div class="label">From</div>
+              <div
+                class="card-body text-center rounded shadow-sm h-50 d-flex align-items-center justify-content-center"
+              >
+                12:42
+              </div>
+            </div>
+            <div class="col">
+              <div class="label">To</div>
+              <div
+                class="card-body text-center rounded shadow-sm h-50 d-flex align-items-center justify-content-center"
+              >
+                13:04
+              </div>
+            </div>
+            <div class="col">
+              <div class="label">Duration</div>
+              <div
+                class="card-body text-center rounded shadow-sm h-50 d-flex align-items-center justify-content-center"
+              >
+                00:22
+              </div>
+            </div>
+          </div>
+
+          <!-- Fourth row - Form -->
+          <div class="row container mt-1">
+            <div class="col">
+              <form>
+                <div class="form-group  ">
+                  <label for="clientName" class="text-secondary"
+                    >Client Name</label
+                  >
+                  <div class="input-group  ">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="clientName"
+                      placeholder="Enter Client Name"
+                    />
+                    <div class="input-group-append">
+                      <span class="input-group-text bg-white border-left-0">
+                        <i class="fa-solid fa-x"></i>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group  mt-3">
+                  <label for="caseNumber" class="text-secondary"
+                    >Case Number</label
+                  >
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="caseNumber"
+                      placeholder="Enter Case Number"
+                    />
+                    <div class="input-group-append">
+                      <span class="input-group-text bg-white border-left-0">
+                        <i class="fa-solid fa-x"></i>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group  mt-3">
+                  <label for="typeOfWork" class="text-secondary"
+                    >Type of Work</label
+                  >
+                  <select class="form-control" id="typeOfWork">
+                    <option selected>Select Type of Work</option>
+                    <!-- Add more options here -->
+                  </select>
+                </div>
+                <div class="form-group position-relative mt-3">
+                  <label for="description" class="text-secondary"
+                    >Description</label
+                  >
+                  <div class="row w-100 ml-1">
+                    <textarea
+                      class="form-control"
+                      id="description"
+                      rows="4"
+                      placeholder="Type in record description"
+                    ></textarea>
+                    <i
+                      class="fas fa-microphone text-muted"
+                      style="margin-top: -19px; margin-left: 930px"
+                    ></i>
+                    <small
+                      class="form-text text-muted"
+                      style="margin-top: -19px; margin-left: 780px"
+                      >Number of symbols 0/250
+                    </small>
+                  </div>
+                </div>
+
+                <button
+                  type="submit"
+                  class="btn btn-dark d-flex justify-content-center align-items-center w-100"
+                >
+                  <i class="fas fa-plus-circle mr-2"></i> Register
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

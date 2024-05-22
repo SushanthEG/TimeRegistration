@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+  <title>Date Picker Modal</title>
+</head>
+<body>
+
+  <div class="dropdown d-inline ml-2">
+    <a
+      class="dropdown-toggle"
+      href="#"
+      role="button"
+      id="dropdownMenuLink"
+      data-toggle="dropdown"
+      aria-haspopup="true"
+      aria-expanded="false"
+      style="color: black;"
+      onclick="openDatePickerModal()"
+    >
+      <!-- Downward arrow icon -->
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down" viewBox="0 0 16 16">
+        <path d="M4.186 6.072l3.95 4.694a1 1 0 0 0 1.728 0l3.95-4.694C13.645 5.053 12.89 4 12 4H4c-.89 0-1.645 1.053-1.814 2.072z"/>
+      </svg>
+    </a>
+    <div
+      class="dropdown-menu text-center"
+      aria-labelledby="dropdownMenuLink"
+    >
+      <!-- Dropdown items here -->
+    </div>
+  </div>
+
+  <!-- Bootstrap Modal for Date Picker -->
+  <div class="modal fade" id="datePickerModal" tabindex="-1" role="dialog" aria-labelledby="datePickerModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="datePickerModalLabel">Select Date</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <input type="text" class="form-control" id="datepicker">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secon

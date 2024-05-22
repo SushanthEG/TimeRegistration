@@ -1,0 +1,39 @@
+.login-container {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+.login-container .eye-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.container-fluid {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  max-width: 30%;
+}
+
+.eye-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.form-control {
+  margin-left: 40%;
+  margin-right: 30%;
+}
+
+.grayscale-img {
+  filter: grayscale(80%);
+}/*# sourceMappingURL=Login.css.map */

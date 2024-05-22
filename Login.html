@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:100"
+      rel="stylesheet"
+    />
+    <style>
+      .custom-container {
+        margin-left: 32px;
+      }
+      .input-group .input-group-append {
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        z-index: 1;
+      }
+      .input-group-text {
+        color: gray;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid custom-container">
+      <div class="row justify-content-center">
+        <div class="col-4 mt-5 text-lg-start">
+          <img
+            src="img/logo.png"
+            alt="Logo"
+            class="mb-3 grayscale-img"
+            height="30px"
+            width="10%"
+          />
+        
+          <h2>Log In</h2>
+          <p class="text-secondary display-6">
+            Enter your work credential in order to login into the app
+          </p>
+          <form>
+            <div class="form-group position-relative">
+              <label for="email" class="text-secondary">Work Email</label>
+              <div class="input-group">
+                <input type="email" class="form-control" id="password" />
+                <div class="input-group-append">
+                  <span class="input-group-text bg-white border-left-0">
+                    <i class="fa-solid fa-x"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="form-group position-relative">
+              <label for="password" class="text-secondary">Password</label>
+              <div class="input-group">
+                <input
+                  type="password"
+                  class="form-control"
+                  id="password"
+                  placeholder="Enter password"
+                />
+                <div class="input-group-append">
+                  <span class="input-group-text bg-white border-left-0">
+                    <i class="fa-solid fa-eye-slash text-gray"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-check mb-3" style="margin-left: -5%">
+              <i class="fa-regular fa-circle-check"></i>
+              <label
+                class="form-check-label text-secondary rounded-5"
+                for="remember"
+                >Remember me for 14 days</label
+              >
+            </div>
+            <button type="submit" class="btn btn-dark btn-block">Login</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

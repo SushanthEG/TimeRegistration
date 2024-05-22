@@ -1,0 +1,155 @@
+sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+sidebar .nav-link {
+  color: black;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  text-decoration: none;
+}
+sidebar .nav-link hr {
+  margin: 0;
+  border-top: 1px solid black;
+}
+sidebar .bottom-links {
+  margin-top: auto;
+}
+
+sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.nav-link {
+  color: black;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.nav-link hr {
+  margin: 0;
+  border-top: 1px solid black;
+}
+
+.bottom-links {
+  margin-top: auto;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo-container img {
+  height: 30px; /* Adjust as needed */
+  margin-right: 10px; /* Add space between logo and text */
+}
+
+.legal-solution {
+  font-weight: bold;
+  padding: 10px;
+} /*# sourceMappingURL=AddTime.css.map */
+
+sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+sidebar .nav-link {
+  color: black;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  text-decoration: none;
+}
+sidebar .nav-link hr {
+  margin: 0;
+  border-top: 1px solid black;
+}
+sidebar .bottom-links {
+  margin-top: auto;
+}
+
+sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.nav-link {
+  color: black;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.nav-link hr {
+  margin: 0;
+  border-top: 1px solid black;
+}
+
+.bottom-links {
+  margin-top: auto;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo-container img {
+  height: 30px; /* Adjust as needed */
+  margin-right: 10px; /* Add space between logo and text */
+}
+
+.legal-solution {
+  font-weight: bold;
+  padding: 10px;
+} /*# sourceMappingURL=AddTime.css.map */
+
+#card1 {
+  border-left: 3px solid orange;
+}
+#card2,
+#card3,
+#card4 {
+  border-left: 3px solid #a3cae9;
+}
+.card {
+  border: none;
+  box-shadow: 1px 2px 3px rgb(206, 204, 204);
+  margin-top: 20px;
+  border-radius: 1rem;
+
+  p {
+    margin-left: 1rem;
+  }
+}
+.stickyicons {
+  width: 100%;
+  height: 30px;
+  
+  position:absolute;
+  margin-left: 2rem;
+
+  svg {
+    position: absolute;
+margin-left: 840px;
+    z-index: 1;
+    width: 3rem;
+    height: 3rem;
+  }
+}
