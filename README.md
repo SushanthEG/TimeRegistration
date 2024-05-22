@@ -1,8 +1,5 @@
 # TimeRegistration
 
-Certainly! Here's the updated description for your GitHub repository with added emojis:
-
----
 
 **Bootstrap Time Registration Template for Legal Team** 🕒👩‍⚖️
 
