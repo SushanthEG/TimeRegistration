@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EG Legal</title>
+    <link rel="icon" href="/img/logo.png" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link href="./assets/calenderMonth.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-2 shadow-sm">
+          <sidebar>
+            <div
+              class="logo-container mt-2"
+              style="box-shadow: 1px 1px rgb(135, 131, 131)"
+            >
+              <img src="img/logo.png" alt="Logo" height="20px" />
+              <span style="margin-left: 10px; color: #708090"
+                >Legal Solution</span
+              >
+            </div>
+            <div></div>
+
+            <a href="#" class="nav-link">
+              <i class="bi bi-house-door" style="margin-right: 10px"></i>
+              Home
+            </a>
+            <a href="#" class="nav-link">
+              <i class="bi bi-plus-circle" style="margin-right: 10px"></i>
+              Register Time
+            </a>
+            <a href="#" class="nav-link">
+              <i class="bi bi-calendar" style="margin-right: 10px"></i>
+              Calendar
+            </a>
+            <a href="#" class="nav-link">
+              <i class="bi bi-bar-chart" style="margin-right: 10px"></i>
+              Overview
+            </a>
+
+            <div class="bottom-links">
+              <a href="#" class="nav-link">
+                <i class="bi bi-bell-fill" style="margin-right: 10px"></i
+                >Notification
+              </a>
+              <a href="#" class="nav-link">
+                <i class="bi bi-person-circle" style="margin-right: 10px"></i
+                >Username
+              </a>
+            </div>
+          </sidebar>
+        </div>
+        <div class="col-10">
+          <!-- First row -->
+          <div class="row">
+            <div class="col-10 mt-3">
+              <p
+                style="
+                  font-family: Montserrat;
+                  font-size: 18px;
+                  font-weight: 500;
+                  padding-left: 57%;
+                "
+              >
+                2023 <i class="bi bi-chevron-down"></i>
+              </p>
+            </div>
+            <div class="col-1 mt-3">
+              <div class="dropdown">
+                <button
+                  class="btn btn-light dropdown-toggle"
+                  type="button"
+                  id="dropdownMenuButton"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  <svg
+                    width="15"
+                    height="15"
+                    viewBox="0 0 15 15"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M6.75 0H8.25C8.6625 0 9 0.226891 9 0.504202V6.55462C9 6.83193 8.6625 7.05882 8.25 7.05882H6.75C6.3375 7.05882 6 6.83193 6 6.55462V0.504202C6 0.226891 6.3375 0 6.75 0Z"
+                      fill="#708090"
+                    />
+                    <path
+                      d="M6.75 7.94141H8.25C8.6625 7.94141 9 8.1683 9 8.44561V14.496C9 14.7733 8.6625 15.0002 8.25 15.0002H6.75C6.3375 15.0002 6 14.7733 6 14.496V8.44561C6 8.1683 6.3375 7.94141 6.75 7.94141Z"
+                      fill="#708090"
+                    />
+                    <path
+                      d="M11.25 0H13.75C14.4375 0 15 0.226891 15 0.504202V6.55462C15 6.83193 14.4375 7.05882 13.75 7.05882H11.25C10.5625 7.05882 10 6.83193 10 6.55462V0.504202C10 0.226891 10.5625 0 11.25 0Z"
+                      fill="#708090"
+                    />
+                    <path
+                      d="M11.25 7.94141H13.75C14.4375 7.94141 15 8.1683 15 8.44561V14.496C15 14.7733 14.4375 15.0002 13.75 15.0002H11.25C10.5625 15.0002 10 14.7733 10 14.496V8.44561C10 8.1683 10.5625 7.94141 11.25 7.94141Z"
+                      fill="#708090"
+                    />
+                    <path
+                      d="M1.25 0H3.75C4.4375 0 5 0.226891 5 0.504202V6.55462C5 6.83193 4.4375 7.05882 3.75 7.05882H1.25C0.5625 7.05882 0 6.83193 0 6.55462V0.504202C0 0.226891 0.5625 0 1.25 0Z"
+                      fill="#708090"
+                    />
+                    <path
+                      d="M1.25 7.94141H3.75C4.4375 7.94141 5 8.1683 5 8.44561V14.496C5 14.7733 4.4375 15.0002 3.75 15.0002H1.25C0.5625 15.0002 0 14.7733 0 14.496V8.44561C0 8.1683 0.5625 7.94141 1.25 7.94141Z"
+                      fill="#708090"
+                    />
+                  </svg>
+                  Month view
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row" style="color: #708090">
+            <p>Month Total:30:00h</p>
+          </div>
+
+          <!-- Month Toggler -->
+
+          <div class="row">
+            <nav aria-label="Search results pages">
+              <ul class="pagination justify-content-center no-border">
+                <li class="page-item">
+                  <a class="page-link no-border" href="#"
+                    ><svg
+                      width="30"
+                      height="30"
+                      viewBox="0 0 30 30"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle
+                        cx="15"
+                        cy="15"
+                        r="12"
+                        transform="rotate(90 15 15)"
+                        fill="#708090"
+                      />
+                      <path
+                        d="M3 15C3 21.6189 8.38105 27 15 27C21.6189 27 27 21.6189 27 15C27 8.38105 21.6189 3 15 3C8.38105 3 3 8.38105 3 15ZM17.4253 9.77053C17.6021 9.94737 17.6779 10.1495 17.6779 10.3768C17.6779 10.6042 17.6021 10.8316 17.4253 10.9832L13.4337 15L17.4253 18.9916C17.7537 19.32 17.7537 19.8758 17.4253 20.2042C17.0968 20.5326 16.5411 20.5326 16.2126 20.2042L11.5895 15.6063C11.2611 15.2779 11.2611 14.7221 11.5895 14.3937L16.2126 9.77053C16.5411 9.44211 17.0968 9.44211 17.4253 9.77053Z"
+                        fill="#E8EAEB"
+                      />
+                    </svg>
+                  </a>
+                </li>
+
+                <li class="page-item">
+                  <span class="page-link no-border" style="color: #708090">
+                    December
+                  </span>
+                </li>
+
+                <li class="page-item">
+                  <a class="page-link no-border" href="#"
+                    ><svg
+                      width="30"
+                      height="30"
+                      viewBox="0 0 30 30"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle
+                        cx="15"
+                        cy="15"
+                        r="12"
+                        transform="rotate(-90 15 15)"
+                        fill="#708090"
+                      />
+                      <path
+                        d="M27 15C27 8.38105 21.619 3 15 3C8.38105 3 3 8.38105 3 15C3 21.6189 8.38105 27 15 27C21.6189 27 27 21.6189 27 15ZM12.5747 20.2295C12.3979 20.0526 12.3221 19.8505 12.3221 19.6232C12.3221 19.3958 12.3979 19.1684 12.5747 19.0168L16.5663 15L12.5747 11.0084C12.2463 10.68 12.2463 10.1242 12.5747 9.79579C12.9032 9.46737 13.4589 9.46737 13.7874 9.79579L18.4105 14.3937C18.7389 14.7221 18.7389 15.2779 18.4105 15.6063L13.7874 20.2295C13.4589 20.5579 12.9032 20.5579 12.5747 20.2295Z"
+                        fill="#E8EAEB"
+                      />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+          <!-- Calender -->
+          <div
+            class="container-fluid mt-4 bg-warning-subtle p-2 text-warning warn"
+          >
+            <i class="bi bi-exclamation-triangle ms-2"></i
+            ><span class="ms-3">Incomplete Registrations: </span
+            ><span class="fw-bold">1</span>
+          </div>
+          <div class="container mt-1">
+            <div class="row">
+              <div class="col-12">
+                <div class="row">
+                  <div class="col p-3 text-center Calendar">1</div>
+                  <div class="col p-3 text-center Calendar">2</div>
+                  <div class="col p-3 text-center Calendar">3</div>
+                  <div class="col p-3 text-center Calendar">4</div>
+                  <div class="col p-3 text-center Calendar">5</div>
+                  <div class="col p-3 text-center Calendar">6</div>
+                  <div class="col p-3 text-center Calendar">7</div>
+                </div>
+                <div class="row">
+                  <div class="col p-3 text-center Calendar">8</div>
+                  <div class="col p-3 text-center Calendar">9</div>
+                  <div class="col p-3 text-center Calendar">10</div>
+                  <div class="col p-3 text-center Calendar">11</div>
+                  <div class="col p-3 text-center Calendar">12</div>
+                  <div class="col p-3 text-center Calendar">13</div>
+                  <div class="col p-3 text-center Calendar">14</div>
+                </div>
+                <div class="row">
+                  <div class="col p-3 text-center Calendar">15</div>
+                  <div class="col p-3 text-center Calendar">16</div>
+                  <div class="col p-3 text-center Calendar">17</div>
+                  <div class="col p-3 text-center Calendar">18</div>
+                  <div class="col p-3 text-center Calendar">19</div>
+                  <div class="col p-3 text-center Calendar">20</div>
+                  <div class="col p-3 text-center Calendar">21</div>
+                </div>
+                <div class="row">
+                  <div class="col p-3 text-center Calendar">22</div>
+                  <div class="col p-3 text-center Calendar">23</div>
+                  <div class="col p-3 text-center Calendar">24</div>
+                  <div class="col p-3 text-center Calendar">25</div>
+                  <div class="col p-3 text-center Calendar">26</div>
+                  <div class="col p-3 text-center Calendar">27</div>
+                  <div class="col p-3 text-center Calendar">28</div>
+                </div>
+                <div class="row">
+                  <div class="col p-3 text-center Calendar">29</div>
+                  <div class="col p-3 text-center Calendar">30</div>
+                  <div class="col p-3 text-center Calendar">31</div>
+                  <div
+                    class="col p-3 text-center Calendar"
+                    style="color: #c0c0c0"
+                  >
+                    1
+                  </div>
+                  <div
+                    class="col p-3 text-center Calendar"
+                    style="color: #c0c0c0"
+                  >
+                    2
+                  </div>
+                  <div
+                    class="col p-3 text-center Calendar"
+                    style="color: #c0c0c0"
+                  >
+                    3
+                  </div>
+                  <div
+                    class="col p-3 text-center Calendar"
+                    style="color: #c0c0c0"
+                  >
+                    4
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cards -->
+
+          <div class="card mt-3 shadow">
+            <div class="card-body left-border-y container m-1">
+              <h6 class="card-text fs-6">13:00-14:15</h6>
+              <div class="warni">
+                <i class="bi bi-exclamation-triangle"></i>
+                <h6 class="d-inline-flex ms-2">01:24</h6>
+              </div>
+              <h6 class="card-text fs-6 fcy">Missing Information</h6>
+            </div>
+          </div>
+          <div class="card mt-3 shadow">
+            <div class="card-body left-border-b container m-1">
+              <h6 class="card-text fs-6">12:10 - 12:58 / 15:40 - 16:00</h6>
+              <div class="warni">
+                <h6 class="d-inline-flex ms-2">01:08</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Plus icon -->
+      <div style="position: fixed; top: 90%; left: 95%">
+        <i class="bi bi-plus-circle-fill h1"></i>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

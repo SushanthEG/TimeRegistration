@@ -1,0 +1,155 @@
+sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+
+  .nav-link {
+    color: black;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    text-decoration: none;
+
+    hr {
+      margin: 0;
+      border-top: 1px solid black;
+    }
+  }
+
+  .bottom-links {
+    margin-top: auto;
+  }
+}
+sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.nav-link {
+  color: black;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.nav-link hr {
+  margin: 0;
+  border-top: 1px solid black;
+}
+
+.bottom-links {
+  margin-top: auto;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo-container img {
+  height: 30px; /* Adjust as needed */
+  margin-right: 10px; /* Add space between logo and text */
+}
+
+.legal-solution {
+  font-weight: bold;
+  padding: 10px;
+}
+
+//calender
+
+.carousel-inner {
+  background-color: white;
+  text-align: center;
+  font-size: 1em;
+  height: 100px; /* Adjust height as needed */
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.carousel-item p {
+  margin: 0;
+}
+
+* {
+  font-style: Montserrat;
+}
+
+.icons {
+  position: relative;
+  top: 5px;
+}
+
+//new css
+.card {
+  border: none;
+  &:hover {
+    border: 0px groove grey;
+    background-color: rgba(197, 197, 197, 0.641);
+    box-shadow: 0px 1px 5px rgb(135, 131, 131);
+  }
+}
+.dv {
+  box-shadow: 0px 1px 5px rgb(135, 131, 131);
+}
+.bi-circle-fill {
+  position: absolute;
+  color: rgb(255, 149, 0);
+  top: -7%;
+  right: -8%;
+}
+.cal {
+  position: relative;
+}
+.bi-exclamation-triangle {
+  color: rgb(255, 149, 0);
+}
+.warn {
+  box-shadow: 0px 1px 6px rgba(135, 131, 131, 0.347);
+}
+.fcy {
+  color: rgb(224, 202, 158);
+}
+
+.fcb {
+  color: rgb(5, 134, 215);
+}
+.left-border-y {
+  border-left: 3px solid rgb(215, 183, 5);
+}
+.left-border-b {
+  border-left: 3px solid rgb(5, 134, 215);
+}
+.warni {
+  float: right;
+}
+
+.pagination.no-border .page-link {
+  border: none;
+  box-shadow: none;
+}
+
+.pagination.no-border .page-item.active .page-link {
+  background-color: transparent;
+  color: inherit;
+  border: none;
+}
+
+.pagination.no-border .page-item.disabled .page-link {
+  background-color: transparent;
+  border: none;
+}
+
+.pagination.no-border .page-item .page-link {
+  background-color: transparent;
+  border: none;
+}
+
+.Calendar:hover {
+  background-color: #dde0e3;
+}
